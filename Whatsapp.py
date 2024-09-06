@@ -45,14 +45,14 @@ def sendMessage():
     if a == 1:
         speak("Whats the message")
         message = str(input("Enter the message- "))
-        pywhatkit.sendwhatmsg("+919343885797",message,time_hour=strTime,time_min=update)
+        pywhatkit.sendwhatmsg("+91",message,time_hour=strTime,time_min=update)
     elif a==2:
         speak("Whats the message")
         message = str(input("Enter the message- "))
-        pywhatkit.sendwhatmsg("+919098725433",message,time_hour=strTime,time_min=update)
+        pywhatkit.sendwhatmsg("+91",message,time_hour=strTime,time_min=update)
     elif a==3:
         speak("Whats the message")
         message = str(input("Enter the message- "))
-        pywhatkit.sendwhatmsg("+919098499593",message,time_hour=strTime,time_min=update)
+        pywhatkit.sendwhatmsg("+91",message,time_hour=strTime,time_min=update)
     elif a==4:
         pass        
